@@ -9942,6 +9942,7 @@ fieldset:disabled .btn {
   }
 }
 
+
 @media (min-width: 768px) {
   .float-md-start {
     float: left !important;
@@ -12657,9 +12658,19 @@ hr.divider-light {
 .g-map {
   height: 384px;
 }
-.lang-img{
+
+.lang-img {
   width: 20px;
   height: 20px;
+}
+
+.header-logo {
+  height: 40px;
+  transform: scale(2.4);
+}
+
+.inverted-color {
+  filter: invert(1);
 }
 
 #mainNav {
@@ -12690,7 +12701,8 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
